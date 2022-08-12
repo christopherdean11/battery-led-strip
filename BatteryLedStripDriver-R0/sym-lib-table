@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "BatteryLedStripDriverLib")(type "KiCad")(uri "${KIPRJMOD}/BatteryLedStripDriverLib.kicad_sym")(options "")(descr ""))
+)

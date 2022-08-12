@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/christopherdean/Dev/battery-led-strip/BatteryLedStripDriver/BatteryLedStripDriver.kicad_sch</source>
+    <date>Sunday, August 07, 2022 at 02:28:58 PM</date>
+    <tool>Eeschema (6.0.6-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Battery Powered LED Strip Driver</title>
+        <company/>
+        <rev>0</rev>
+        <date>2022-07-26</date>
+        <source>BatteryLedStripDriver.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e841e806-5eb3-49e9-a50c-cb2ed4e11ace</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>398e5823-3a33-4d5b-8e39-ac107bd949ca</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C96446</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C96446"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5544946-f2b6-4d5c-9e7a-1c51e9744d79</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C96446</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C96446"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d91f62f8-0252-4b60-b22e-d1fe2c47921a</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>080a41fb-c03d-4680-ab0e-48d05be312ea</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C15850"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7dc21268-5c64-427c-b8e4-1415c660fa57</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C15850"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c20964b1-5848-438f-a9dd-625a5b9b805e</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C15850"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28779b73-3da5-4a97-b0dd-b7094b8a801a</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>27nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C387951</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C387951"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e883df88-8267-4bdf-b709-429d652f7738</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>2.7 nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C387950</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C387950"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16e7b376-0b1f-48a8-9612-77bea862cd76</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>120 nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C426033</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part #" value="C426033"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b116d1f-8117-47ed-af8f-48e99d0e896e</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="LCSC Part #" value="C81598"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d2d734e-50e7-44da-8ffc-e546460efa16</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C81598</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="LCSC Part #" value="C81598"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bd5c149-1ff2-4d09-9fc8-6aea67c0ebd4</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>B330A</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C110485</field>
+      </fields>
+      <libsource lib="Diode" part="B330" description="30V 3A Schottky Barrier Rectifier Diode, SMC"/>
+      <property name="LCSC Part #" value="C110485"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29a4133a-9aae-4542-8c3d-857358868b26</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6615ee0-8e3c-45f0-bf1d-986d6101d1b0</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>997ab4a9-278e-43a3-9195-d33888d92522</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>817af3fc-8382-4875-84c9-e7a0071fcf1d</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72761482-50b6-48c7-a22a-196eb42ce2dc</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC Part #">C474881</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC Part #" value="C474881"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>132f0ed9-d441-409f-9e6f-dcbdc0b11729</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3551c38-5149-4a7c-a32e-42dce29d8d0d</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <fields>
+        <field name="LCSC Part #">C474881</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC Part #" value="C474881"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>409f20d8-aaf7-4be3-8de9-13a4a2237902</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>042f5c24-c44c-4c93-a1ec-f4dbef7cff1b</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>5.6uH</value>
+      <footprint>BatteryLedStripDriverFootprints:L_Sunlord_MWSA0603S_8.4x3.5mm</footprint>
+      <fields>
+        <field name="LCSC Part #">C408448</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="LCSC Part #" value="C408448"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dccff9cb-cdf3-443c-bcbd-8cd3eb76374e</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC Part #">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC Part #" value="C8545"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3403f2d7-6689-4c3e-8109-8a84e041ad30</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>DMP2305U</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP2035U.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C85097</field>
+      </fields>
+      <libsource lib="BatteryLedStripDriverLib" part="DMP2305U" description="-3A Id, -20V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC Part #" value="C85097"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ef80549-d964-41b0-b39a-f4a0f87b2ef7</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC Part #">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC Part #" value="C8545"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>239cfb3d-9080-47f5-9530-b4b78fb42e9e</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>DMP2305U</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP2035U.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C85097</field>
+      </fields>
+      <libsource lib="BatteryLedStripDriverLib" part="DMP2305U" description="-3A Id, -20V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="LCSC Part #" value="C85097"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a752a9a7-2c4f-49d5-9e4e-8467a6616ddb</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC Part #">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC Part #" value="C8545"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10f14845-5ff3-4ec6-8963-2ce05c3b18af</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC Part #">C17477</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC Part #" value="C17477"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b5d88da-1de3-408e-9f60-be4223b816a9</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C25741</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC Part #" value="C25741"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b75cd8d-0337-496a-854c-1db4b735074a</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC Part #">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC Part #" value="C11702"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35040edd-e746-42c3-abf1-db45e87fad5d</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C25741</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC Part #" value="C25741"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ddc1247a-e771-403a-a2dd-72dd27545caf</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC Part #">C17477</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC Part #" value="C17477"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d20a41d9-a27d-451c-a38d-4547c30008e9</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>87.6 k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC Part #">C477808</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC Part #" value="C477808"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f787bbe1-3cf9-4f57-b4e1-b504db2bdf1c</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC Part #">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC Part #" value="C11702"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>328ab761-0d09-4915-8883-31bceaf8317d</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC Part #">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC Part #" value="C25744"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea893104-1e18-4afa-9927-59932e1a75f6</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>87.6 k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC Part #">C477808</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC Part #" value="C477808"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81dfc74a-7038-480c-aff4-e67232d02fa3</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1.27k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="LCSC Part #">C327364</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC Part #" value="C327364"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73aeb9fe-b413-46e9-a68a-8b9b42e1a66f</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>100k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical</footprint>
+      <fields>
+        <field name="LCSC Part #">C118965</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer_US" description="Potentiometer, US symbol"/>
+      <property name="LCSC Part #" value="C118965"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2fe5837-045f-4be5-9394-9481b87cccd1</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Reed</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Switch" part="SW_Reed" description="reed switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1e62450-f230-4f09-9d7e-a737e8ff7989</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TLC555xD</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlc555.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C6986</field>
+      </fields>
+      <libsource lib="Timer" part="TLC555xD" description="Single LinCMOS Timer, 555 compatible, SOIC-8"/>
+      <property name="LCSC Part #" value="C6986"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e259160-526b-4cbb-960e-9a3a61a4f9d1</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TPS55340PWP</value>
+      <footprint>Package_SO:HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3x3.1mm_ThermalVias</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps55340.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #">C43862</field>
+      </fields>
+      <libsource lib="BatteryLedStripDriverLib" part="TPS55340PWP" description="Integrated 5-A Wide Input Range Boost/SEPIC/Flyback DC/DC Regulator"/>
+      <property name="LCSC Part #" value="C43862"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryLedStripDriver.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21409e98-05db-492b-b006-356348d62c95</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="BatteryLedStripDriverLib" part="DMP2305U">
+      <description>-3A Id, -20V Vds, P-Channel MOSFET, SOT-23</description>
+      <docs>https://www.diodes.com/assets/Datasheets/DMP2035U.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMP2305U</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP2035U.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BatteryLedStripDriverLib" part="TPS55340PWP">
+      <description>Integrated 5-A Wide Input Range Boost/SEPIC/Flyback DC/DC Regulator</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tps55340.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS55340PWP</field>
+        <field name="Footprint">Package_SO:HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3x3.1mm_ThermalVias</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps55340.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="passive"/>
+        <pin num="2" name="SW" type="passive"/>
+        <pin num="3" name="VIN" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="SS" type="input"/>
+        <pin num="6" name="SYNC" type="input"/>
+        <pin num="7" name="AGND" type="power_out"/>
+        <pin num="8" name="COMP" type="input"/>
+        <pin num="9" name="FB" type="input"/>
+        <pin num="10" name="FREQ" type="input"/>
+        <pin num="11" name="NC" type="free"/>
+        <pin num="12" name="PGND" type="passive"/>
+        <pin num="13" name="PGND" type="passive"/>
+        <pin num="14" name="PGND" type="power_out"/>
+        <pin num="15" name="PAD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer_US">
+      <description>Potentiometer, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148W">
+      <description>75V 0.15A Fast Switching Diode, SOD-123</description>
+      <docs>https://www.vishay.com/docs/85748/1n4148w.pdf</docs>
+      <footprints>
+        <fp>D*SOD?123*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148W</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://www.vishay.com/docs/85748/1n4148w.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="B330">
+      <description>30V 3A Schottky Barrier Rectifier Diode, SMC</description>
+      <docs>http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf</docs>
+      <footprints>
+        <fp>D*SMC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">B330</field>
+        <field name="Footprint">Diode_SMD:D_SMC</field>
+        <field name="Datasheet">http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Reed">
+      <description>reed switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Reed</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Timer" part="TLC555xD">
+      <description>Single LinCMOS Timer, 555 compatible, SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlc555.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLC555xD</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlc555.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="2N7002">
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="BatteryLedStripDriverLib">
+      <uri>/Users/christopherdean/Dev/battery-led-strip/BatteryLedStripDriver/BatteryLedStripDriverLib.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="Timer">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Timer.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/BST_COMP">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="COMP" pintype="input"/>
+    </net>
+    <net code="2" name="/BST_FREQ">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="FREQ" pintype="input"/>
+    </net>
+    <net code="3" name="/BST_SS">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="SS" pintype="input"/>
+    </net>
+    <net code="4" name="/BST_VOUT">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/FB">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="6" name="/LED_PWM_G">
+      <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U1" pin="3" pinfunction="Q" pintype="output"/>
+    </net>
+    <net code="7" name="/PWR_EN">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="8" name="/SW">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="SW" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="SW" pintype="passive"/>
+    </net>
+    <net code="9" name="/VBATT">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="10" name="/VIN">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VIN" pintype="input"/>
+      <node ref="U2" pin="4" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="11" name="/VLED">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="12" pinfunction="PGND" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="PGND" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U2" pin="15" pinfunction="PAD" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="SYNC" pintype="input"/>
+      <node ref="U2" pin="7" pinfunction="AGND" pintype="power_out"/>
+    </net>
+    <net code="13" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="TR" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="THR" pintype="input"/>
+    </net>
+    <net code="14" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="CV" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="DIS" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(Q4-Pad2)">
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="R" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="25" name="unconnected-(U2-Pad11)">
+      <node ref="U2" pin="11" pinfunction="NC" pintype="free+no_connect"/>
+    </net>
+  </nets>
+</export>
