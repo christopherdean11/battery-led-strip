@@ -23,11 +23,11 @@ See the [schematic print](Outputs/BatteryLedStripDriver.pdf). Key elements inclu
 * Found a missed pulldown resistor on the gate of Q1 while reviewing the schematic again before the board arrived
   * This proved to in fact be an issue where the reed switch would not induce a state change unless it was probed with the oscilloscope, presumably adding a small leakage path to ground.
   * Added 100k from Q1 gate (pin 1) to GND. I had a 100k through-hole on hand, so I tied it from SW1 pin 1 to the unmasked mounting hole, since the mounting holes were tied to GND (for easy oscillocope probe GND clip spots). 
-  * With the pulldown in place the board turns on/off with the reed switch as desired! :) 
+  * :white_check_mark: With the pulldown in place the board turns on/off with the reed switch as desired! :) 
 * All of the following test notes assume the Q1 pulldown is in place.
 
 #### Enable
-* Tested NO and NC enable modes (with the appropriate NO or NC reed switch connection), both turn on the output when the reed swith is opened/separated (i.e. the door is opened), so the invert/no-invert circuit works as desired. :white_check_mark:
+* :white_check_mark: Tested NO and NC enable modes (with the appropriate NO or NC reed switch connection), both turn on the output when the reed swith is opened/separated (i.e. the door is opened), so the invert/no-invert circuit works as desired. 
 #### PWM
 * Tested with two 1k resistors in parallel to get 12V/500ohm = 24mA load
 * Can PWM up to 100% duty cycle and down to less than 5%
