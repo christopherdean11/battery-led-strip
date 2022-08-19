@@ -1,6 +1,8 @@
 # PCB Rev0
 The first attempat at a PCB to boost 4-AA batteries to driver 12V LED strip.
 
+<img src="images/BoardAsBuilt.jpg" alt="PCB" width="400"/>
+
 ## Design
 See the [schematic print](Outputs/BatteryLedStripDriver.pdf). Key elements include:  
 #### Boost converter
