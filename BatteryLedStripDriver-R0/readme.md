@@ -2,7 +2,7 @@
 The first attempat at a PCB to boost 4-AA batteries to driver 12V LED strip.
 
 ## Design
-See the [schematic print](BatteryLedStripDriver-R0/Outputs/BatteryLedStripDriver.pdf). Key elements include:  
+See the [schematic print](Outputs/BatteryLedStripDriver.pdf). Key elements include:  
 #### Boost converter
 *  `TPS55340PWP` to boost ~6V (with new batteries) to 12V. Needed something with a high enough current limit on the power switch to support 1A out at a duty cycle of 4V->12V, plus wanted it in stock at JLCPCB. This one matched those criteria and had the added benefit of TI's WEBENCH tool support.
 #### PWM signal generator
