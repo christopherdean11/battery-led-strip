@@ -1,9 +1,9 @@
 # PCB Rev0
 The first attempat at a PCB to boost 4-AA batteries to driver 12V LED strip.
 
+Here is the board next to a AA battery.  
 <img src="images/BoardAsBuilt.png" alt="PCB" width="400"/>  
 
-Here is the board next to a AA battery.
 
 ## Design
 See the [schematic print](Outputs/BatteryLedStripDriver.pdf). Key elements include:  
@@ -25,7 +25,8 @@ See the [schematic print](Outputs/BatteryLedStripDriver.pdf). Key elements inclu
 ## Bring up notes
 #### Missing Pulldown
 * Found a missed pulldown resistor on the gate of Q1 while reviewing the schematic again before the board arrived
-  * This proved to in fact be an issue where the reed switch would not induce a state change unless it was probed with the oscilloscope, presumably adding a small leakage path to ground.
+  * This proved to in fact be an issue where the reed switch would not induce a state change unless it was probed with the oscilloscope, presumably adding a small leakage path to ground.  
+
     <img src="images/Sch_showMissingPulldown.png" alt="PCB" width="400"/>  
 
 
@@ -44,14 +45,12 @@ See the [schematic print](Outputs/BatteryLedStripDriver.pdf). Key elements inclu
 * Tested with two 1k resistors in parallel to get 12V/500ohm = 24mA load
 * Can PWM up to 100% duty cycle and down to less than 5%
 * Output waveform is not nice and square, has a 2.5-3V dip on PWM rising edge, likely because of the load transient caused by PWM-ing the load without disabling the power converter. 
-
-#### With LEDs
-:white_check_mark: Testing with a short LED strip works great and LEDs can dim as expected by adjusting the potentiometer. 
+* :white_check_mark: The LEDs can be dimmed from full brigthness down to almost off.
 
 #### End-to-End Test
-* :white_check_mark: Battery bank + PCB + small LED tape + Reed switch, works as desired :)
-  <img src="images/FullDemo.gif" alt="PCB" width="800"/>  
-
+* :white_check_mark: Battery bank + PCB + short LED strip + Reed switch, works as desired :)
+  <img src="images/FullDemo.gif" alt="PCB" width="800"/> 
+   
 * :white_check_mark: Full test with battery bank and 2 ft. LED strip works!   
 * There is an audible buzzing/humming when dimming the LEDs while drawing high current (longer strip) due to PWM-ing the output, and most likely [causing the cermaic output capacitors to vibrate against the PCB](https://www.murata.com/en-us/products/capacitor/ceramiccapacitor/library/apps/notepc) in the audio frequency band due to the low PWM frequency. Going to 100% duty cycle eliminates the noise. 
 
