@@ -17,3 +17,4 @@ See [Rev0 Design Notes](BatteryLedStripDriver-R0/readme.md)
 Here is a gif demonstrating the circuit on a short strip of LEDs
 <img src="BatteryLedStripDriver-R0/images/FullDemo.gif" alt="PCB" width="800"/>  
 
+Here are some [ideas for a future revision](BatteryLedStripDriver-R0/readme.md#next-gen-ideas)

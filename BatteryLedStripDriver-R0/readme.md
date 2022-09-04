@@ -50,7 +50,7 @@ See the [schematic print](Outputs/BatteryLedStripDriver.pdf). Key elements inclu
 #### End-to-End Test
 * :white_check_mark: Battery bank + PCB + short LED strip + Reed switch, works as desired :)
   <img src="images/FullDemo.gif" alt="PCB" width="800"/> 
-   
+
 * :white_check_mark: Full test with battery bank and 2 ft. LED strip works!   
 * There is an audible buzzing/humming when dimming the LEDs while drawing high current (longer strip) due to PWM-ing the output, and most likely [causing the cermaic output capacitors to vibrate against the PCB](https://www.murata.com/en-us/products/capacitor/ceramiccapacitor/library/apps/notepc) in the audio frequency band due to the low PWM frequency. Going to 100% duty cycle eliminates the noise. 
 
@@ -61,3 +61,14 @@ I have 1980's textured ceiling/walls inside the closet, so I stuck the LED strip
 The reed switch and magnet are mounted at the top of the doorway and the door. 
 
 
+## Next-Gen Ideas
+A few thoughts that came up to include for a next revision:
+* Add an MCU 
+  - More flexible PWM generation
+  - Timer to shut off the lights if door is left open
+  - Battery monitoring with some kind of indicator for low battery (such as blinking the LEDs once or twice at power-on)
+* Different power converter
+  - One that supports PWM-ing the EN pin. May need to try using a LED driver IC and 'trick' it into constant voltage mode 
+  - Consider a buck-boost. This could allow for multiple output voltage levels for different LED strips. I've seen 5V and 6V strips as well as the typical 12V strip. Some go up to 24V but boosting 6V to 24V *and* getting near 1A out would be a lot of amps at the input. 
+* I would love to get some kind of single, full enclosure solution
+* Connectors instead of terminal jacks. Terminal jacks are great for protyping but not great for actual long-term installation. 
